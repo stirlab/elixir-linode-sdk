@@ -31,4 +31,5 @@ use Mix.Config
 
 config :linode_sdk, debug_http: false
 config :linode_sdk, api_endpoint: "https://api.linode.com/v4"
-config :linode_sdk, access_token: "bd4831e52d40ad19b1c734921eb43f74511a6e6a282b0aef5eeb81d476f367d0"
+# Generate this token at https://cloud.linode.com/profile/tokens
+config :linode_sdk, access_token: "your Personal Access Token here"
