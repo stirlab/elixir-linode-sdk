@@ -19,3 +19,9 @@ def deps do
 end
 ```
 
+```sh
+cp config/config.sample.exs config/config.exs
+```
+
+Edit to taste.
+
