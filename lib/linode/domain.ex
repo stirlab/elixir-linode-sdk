@@ -109,7 +109,7 @@ defmodule Linode.Domain do
     end
   end
 
-  defp split_fqdn(fqdn) do
+  def split_fqdn(fqdn) do
     parts = String.split(fqdn, ".")
     domain = Enum.slice(parts, -2..-1)
              |> Enum.join(".")
