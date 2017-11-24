@@ -1,21 +1,21 @@
-# Linode
+# Linode API wrapper
 
-**TODO: Add description**
+Start of a wrapper for the various APIs available at [Linode](https://www.linode.com)
 
-## Installation
+This uses version 4 of their [API](https://developers.linode.com/v4/introduction).
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `linode_sdk` to your list of dependencies in `mix.exs`:
+**NOTE:** Almost nothing in here right now, only very basic functions have been
+implemented for their DNS Manager functionality. Pull requests welcome to add
+other stuff :)
+
+## Installation (for now)
+
 
 ```elixir
 def deps do
   [
-    {:linode_sdk, "~> 0.1.0"}
+    {:linode_sdk, git: "https://github.com/thehunmonkgroup/elixir-linode-sdk.git"},
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/linode_sdk](https://hexdocs.pm/linode_sdk).
 
